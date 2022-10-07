@@ -1,4 +1,6 @@
-@kgalb01, @rkmd0 handout-submission-<area-of-applicability-theory>
+@kgalb01
+@rkmd0 
+handout-submission-<area-of-applicability-theory>
 
 # **Area of Applicability - Theory**
 
