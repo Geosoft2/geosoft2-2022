@@ -1,9 +1,6 @@
-@kgalb01
-@rkmd0 
-handout-submission-<area-of-applicability-theory>
-
 # **Area of Applicability - Theory**
 
+Autoren:[@kgalb01](https://github.com/kgalb01), [@rkmd0](https://github.com/rkmd0)
 **Motivation**
 
 - Machine learning Modelle erfreuen sich große Beliebtheit bei räumlichen Modellierungen in Geowissenschaften
