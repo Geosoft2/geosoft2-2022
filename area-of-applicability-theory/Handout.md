@@ -34,8 +34,8 @@ Autoren: [@kgalb01](https://github.com/kgalb01), [@rkmd0](https://github.com/rkm
 
 **Quellen**
 
-'Predicting into unknown space?': [https://presentations.copernicus.org/EGU2020/EGU2020-8492_presentation.pdf](https://presentations.copernicus.org/EGU2020/EGU2020-8492_presentation.pdf)
+Meyer, Hanna; Pebesma, Edzer: Predicting into unknown space? Estimating the area of applicability of spatial prediction models. [https://arxiv.org/abs/2005.07939](https://arxiv.org/abs/2005.07939) (06.10.2022).
 
-Youtube: [https://www.youtube.com/watch?v=jChikEb4vgE&t](https://www.youtube.com/watch?v=jChikEb4vgE&t)
+Meyer, Hanna: Estimating the area of application of spatial prediction model. GSV2020 Estimating the area of applicability of spatial prediction models (Hanna Meyer) - YouTube (06.10.2022). 
 
-Vorlesungsfolien aus dem Kurs Fernerkundung und maschinelle Lernverfahren zur flächendeckenden Erfassung von Umweltvariablen WS 2020/21 von Prof. Dr. Hanna Meyer
+Vorlesungsfolien: Meyer, Hannah: Fernerkundung und maschinelle Lernverfahren zur flächendeckenden Erfassung von Umweltvariablen. Teil 10: Mapping the Area of Applicability. 
