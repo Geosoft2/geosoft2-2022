@@ -36,6 +36,6 @@ Autoren: [@kgalb01](https://github.com/kgalb01), [@rkmd0](https://github.com/rkm
 
 Meyer, Hanna; Pebesma, Edzer: Predicting into unknown space? Estimating the area of applicability of spatial prediction models. Online unter: [https://arxiv.org/abs/2005.07939](https://arxiv.org/abs/2005.07939) (06.10.2022).
 
-Meyer, Hanna: Estimating the area of application of spatial prediction model. GSV2020 Estimating the area of applicability of spatial prediction models (Hanna Meyer) - YouTube (06.10.2022). 
+Meyer, Hanna: Estimating the area of application of spatial prediction model. GSV2020 Estimating the area of applicability of spatial prediction models (Hanna Meyer). Online unter: https://www.youtube.com/watch?v=jChikEb4vgE (06.10.2022). 
 
 Vorlesungsfolien: Meyer, Hanna: Fernerkundung und maschinelle Lernverfahren zur flächendeckenden Erfassung von Umweltvariablen. Teil 10: Mapping the Area of Applicability. 
