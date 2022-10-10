@@ -62,7 +62,7 @@ Docker - How?
 ### Dockerfile 
 
 - Das Dockerfile enthält Anweisungen für das Image
-- Die Anweisungen im Dockerfile prodizieren 'layer#
+- Die Anweisungen im Dockerfile prodizieren 'layer'
 
 ### Wichtige Docker Befehle (Build, run, rm)
 
