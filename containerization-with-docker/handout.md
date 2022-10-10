@@ -16,11 +16,11 @@ Docker - why and when?
 - Verwendung für Entwicklung, Test, Ausführung und Vertrieb von Anwendungen
 - Kapselung von Anwendungen in Containern
 - Kostenlose Benutzung möglich
-    - Erweiterungen als Abo möglich
+    - Erweiterungen als Abo in mehreren Stufen möglich
 - Bessere und erleichterte Entwicklung 
     - Unabhängigkeit durch Container sowohl von Laufzeit- aber auch Entwicklungsumgebung gewährleistet
     - Mehrere Anwendungen parallel erstellen ohne gegenseitige Störungen
-    - Einfacheres, Systemunabhängiges Testen von Abläufen und Funktionalitäten
+    - Einfacheres, systemunabhängiges Testen von Abläufen und Funktionalitäten
     - Gute Funktionalität im Zusammenhang mit Microservices
     - Ein erstellter Container kann immer wieder genau so wie er ist über all genutzt werden (reproducible research)
 - Benutzung über Desktop Anwendung "Docker Desktop"
@@ -31,14 +31,18 @@ Docker - why and when?
 
 ### Containerisierung
 
-- Ein Container ist eine Software, die Code und dessen Abhängigkeiten in einer Anwendung verpackt
+- Ein Container ist Software, welche mit dem gesamten Code und allen Abhängigkeiten in einer standardisierten Einheit verpackt wird um so bessere Entwicklung, Einsatz und Verteilung dieser zu ermöglichen
 - Unterstützt Schnelligkeit und Zuverlässigkeit
 - Unabhängig von Entwicklungs- und Laufzeitumgebung verhält sich containerisierte Software immer gleich
+- Im Vergleich zu Hardware oder virtuellen Umgebungen ressourcensparend
+- Einfacherere Einteilung der Benutzung - nur die Container die wirklich gebraucht werden
+- Laufen mehrere Container gleicheitig, passiert dies unabhängig voneinander, also ohne Komplikationen untereinander
+- Deutlich einfacherer Portierung der gewünschten Software möglich
 
 ### Docker Container & Images
 
 - Container, die auf Docker-Engine laufen sind:
-  - standardisiert (d.h. impoertierbar)
+  - standardisiert (d.h. importierbar)
   - effizient i.S.v. reduzierter Größe und nicht vorhandener Server Kosten
   - isoliert von anderen Containern
   
@@ -51,7 +55,13 @@ Informationsfluss im Format: Dockerfile -> Dockerfile -> Docker-Image -> Docker-
 
 ### Dockerhub
 
--
+- Von Docker betriebene Plattform um Container Images zu finden und zu teilen
+- Weltweit führender Repository-Hostingservice für Container Images
+- Sehr große Auswahl an bereits fertigen und direkt einsetzbaren Container Images
+- Durch Verknüpfung mit Docker Desktop direkter Download & Start sehr einfach möglich
+- Durch Upgrade möglich:
+  - Besseres Verwalten von Freigabe der eigenen Repositories
+  - Automatisches Erstellen eines Container Images aus Github Repositories durch Github (auch "live" bei jedem neuen Commit durch Webhooks)
 
 Docker - How?
 -------------
@@ -77,7 +87,7 @@ Docker - How?
    - USER: Nutzer und Gruppenzugehörigkeit wechseln
    - COPY: Dateien und Verzeichnisse in das Image kopieren
    - RUN: Befehl im Image ausführen
-   - 
+   - etc.
 
 ### Wichtige Docker Befehle (Build, run, rm)
 
@@ -129,4 +139,5 @@ Docker Compose
 - Docker Inc. (2020). Docker Overview. https://docs.docker.com/get-started/overview/.
 - Docker Inc. (2020). Sample Application. https://docs.docker.com/get-started/02_our_app/.
 - Docker Inc. (2020). Use Containers to Build, Share and Run your applications. https://www.docker.com/resources/what-container/.
+- Docker Inc. (2020). Docker Hub. https://www.docker.com/products/docker-hub/
 - IONOS (06.07.2022). Dockerfile. https://www.ionos.de/digitalguide/server/knowhow/dockerfile/.
