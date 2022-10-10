@@ -41,7 +41,11 @@ Docker - why and when?
   - standardisiert (d.h. impoertierbar)
   - effizient i.S.v. reduzierter Größe und nicht vorhandener Server Kosten
   - isoliert von anderen Containern
+  
 - Ein Image ist eine alleinstehend ausführbare Datei, die alles Nötige wie Code, Laufzeitumgebung, Bibliotheken etc. enthält
+- Es ist eine (rein) lesbare Schablone mit Anweisungen zur Erstellung eines Containers
+- Um ein Image zu erstellen, wird ein Dockerfile mit einfacher Syntax über Anweisungen zum Erstellen und zur Ausführung des Images angefertigt
+- Container ist die ausführbare Instanz eines Images
 
 ### Dockerhub
 
@@ -57,17 +61,48 @@ Docker - How?
 
 ### Dockerfile 
 
-- Das Dockerfile enthält Anweisungen für den Container
+- Das Dockerfile enthält Anweisungen für das Image
+- Die Anweisungen im Dockerfile prodizieren 'layer#
 
 ### Wichtige Docker Befehle (Build, run, rm)
 
--
+- Docker Build im Format:
+
+    docker build [OPTIONS] PATH | URL | -
+    
+    z.B.  docker build https://github.com/maschroder/geosoft2-2022
+  
+    - Baut Images aus dem Dockerfile und dem Kontext, bestehend aus Pfad oder URL (z.B. Git repository)
+
+
+- Docker Run im Format:
+
+   docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
+   
+   Zum Ausführen reicht:
+   
+   docker run [docker_image]
+   
+   - benötigt ein Image, um daraus einen Container zu erstellen und auszuführen
+   - Durch Hinzufügen von Attributen zur basic Syntax können z.B. Container Name und Volumes definiert werden
+
+   docker container run --name [container_name] [docker_image]
+   
+   
+- Docker rm im Format:
+   
+   docker rm [OPTIONS] CONTAINER [CONTAINER...]
+   
+   - Entfernt einen oder mehrere Container
+   
+
 
 Docker Compose
 --------------
 
 ### Quellen
 
+- Docker Inc. (2020). Docker Build. https://docs.docker.com/engine/reference/commandline/build/.
 - Docker Inc. (2020). Docker Overview. https://docs.docker.com/get-started/overview/.
 - Docker Inc. (2020). Sample Application. https://docs.docker.com/get-started/02_our_app/.
 - Docker Inc. (2020). Use Containers to Build, Share and Run your applications. https://www.docker.com/resources/what-container/.
