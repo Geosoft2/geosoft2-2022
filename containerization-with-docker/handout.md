@@ -13,7 +13,7 @@ Docker - why and when?
 ### Docker 
 
 - Open-Source Software zur Sicherstellung der Funktionalität einer Anwendung in jeder Umgebung anhand von Containerisierung
-- Verwendung für Entwicklung, Ausführung und Vertrieb von Anwendungen
+- Verwendung für Entwicklung, Test, Ausführung und Vertrieb von Anwendungen
 - Kapselung von Anwendungen in Containern
 - Kostenlose Benutzung möglich
     - Erweiterungen als Abo möglich
@@ -47,6 +47,8 @@ Docker - why and when?
 - Um ein Image zu erstellen, wird ein Dockerfile mit einfacher Syntax über Anweisungen zum Erstellen und zur Ausführung des Images angefertigt
 - Container ist die ausführbare Instanz eines Images
 
+Informationsfluss im Format: Dockerfile -> Dockerfile -> Docker-Image -> Docker-Container
+
 ### Dockerhub
 
 -
@@ -62,7 +64,20 @@ Docker - How?
 ### Dockerfile 
 
 - Das Dockerfile enthält Anweisungen für das Image
-- Die Anweisungen im Dockerfile prodizieren 'layer'
+- Ein neu erstelltes Image stammt immer von einem 'Basis-Image' ab
+- Das Dockerfile bestimmt für das neue Image das 'Basis-Image' und ggf. Spezifikationen 
+  -> docker build
+- Ausschließen von Dateien im Build-Prozess: .dockerignore
+
+- Wichtige Anweisungen im Dockerfile:
+
+   - FROM: Gibt 'Basis-Image' an (erste Anweisung und einzigartig)
+   - ENV: Setzt Umgebungsvariablen für Build-Prozess und Cotainer-Laufzeit
+   - WORKDIR: Aktuelles Verzeichnis wechseln
+   - USER: Nutzer und Gruppenzugehörigkeit wechseln
+   - COPY: Dateien und Verzeichnisse in das Image kopieren
+   - RUN: Befehl im Image ausführen
+   - 
 
 ### Wichtige Docker Befehle (Build, run, rm)
 
@@ -100,9 +115,18 @@ Docker - How?
 Docker Compose
 --------------
 
+- Verlinkung von Containern notwendig z.B. bei Webserver oder Datenbank -> bei üblichen Anwendung sehr unübersichtlich
+- Ermöglicht das Erstellen mehrerer Container in einer Datei und definiert deren Beziehungen untereinander
+- docker-compose.yml 
+   - Diese Datei definiert Container + Beziehungen
+   - docker-compose up erzeugt und startet alle Container aus YAML File
+   - docker-compose build baut Container zusammen und tagged diese, damit sie bei Änderungen (z.B. im Dockerfile) schneller verfügbar sind
+   - docker-compose rm entfernt getaggten Container
+
 ### Quellen
 
 - Docker Inc. (2020). Docker Build. https://docs.docker.com/engine/reference/commandline/build/.
 - Docker Inc. (2020). Docker Overview. https://docs.docker.com/get-started/overview/.
 - Docker Inc. (2020). Sample Application. https://docs.docker.com/get-started/02_our_app/.
 - Docker Inc. (2020). Use Containers to Build, Share and Run your applications. https://www.docker.com/resources/what-container/.
+- IONOS (06.07.2022). Dockerfile. https://www.ionos.de/digitalguide/server/knowhow/dockerfile/.
