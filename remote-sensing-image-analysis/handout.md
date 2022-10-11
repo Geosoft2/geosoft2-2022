@@ -35,6 +35,9 @@ Fernerkundung ist die berührungsfreie Datenerfassung, Datenvisualisierung und A
 ## Usage
 * Analyse der Vegetation: NDVI, Burned Ratio Index
 * Flächenanalysen machen durch Klassifikation
+* Erforschung von Phänomenen des Klimawandels (Wüstenbildung, Gletscherrückgang, etc.)
+* Wettervorhersage
+* Informationsquelle im Krieg
 
 ## Resolution
 * Räumliche Auflösung: Pixelgröße
