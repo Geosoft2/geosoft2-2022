@@ -13,6 +13,8 @@
 **Problem:** unabhängige Stichprobe von Validierungsdaten zeigt:
   - Modell passt nicht so gut zu Validierungsdaten wie zu Trainingsdaten
   - Große Differenz, vor allem bei kleinem Trainingsdatensatz oder vielen Parametern im Modell
+
+
 **->** Verwendung von Kreuzvalidierungverfahren um Größe des Effekts abschätzen zu können
 
 
@@ -26,6 +28,7 @@
 **Testdatensatz:** Bewertung der Leistung des Modells
 - mittlere Kreuzvalidierungsfehler wird als Leistungsindikator festgehalten
 
+![This is an image](https://miro.medium.com/max/640/1*f5EpP3dfLNdpqWGEwPIoqw.png)
 
 ## Kreuzvalidierungsverfahren
 
@@ -41,6 +44,8 @@
 **Nachteil:**
 - Testfehlerraten sind sehr variabel, abhängig davon welche Daten im Trainingdatensatz und welche im Validierungsdatensatz landen 
 - Nur ein Teil der Daten wird zum Testen verwendet, wodurch es zu einer hohen Verzerrung (bei kleinen Datensätzen) kommen kann. Dies kann zu einer  Überschätzung des Fehlers führen
+
+![This is an image](https://editor.analyticsvidhya.com/uploads/62390hold%20out_datavedas.jpg)
 
 #
 
@@ -64,6 +69,8 @@
 **Ergebnis:**
 - lässt sich aus Durchschnitt aus jeder Iteration berechnen
 
+![This is an image](https://miro.medium.com/max/640/1*2rRcNnIokzJU_-NXm29IMA.gif)
+![This is an image](https://de.mathworks.com/discovery/cross-validation/_jcr_content/mainParsys/image.adapt.full.medium.jpg/1630394342112.jpg)
 #
 
 ### stratified k-fold cross-validation
@@ -75,6 +82,9 @@
 **Vorteile:**
 - für kleine Datensätze geeignet
 - bei unausgeglichenen Datensätzen, wird das Verhältnis zwischen den Klassen beibehalten
+
+
+![This is an image](https://miro.medium.com/max/1100/0*T9RM0SSr3bnO0DP_.png)
 
 #
 
@@ -103,6 +113,9 @@
 - lange Verarbeitungszeit
 - ausgelassene Elemente sind trotzdem “bekannt” bevor sie geschätzt werden 
 
+
+![This is an image](https://miro.medium.com/max/600/1*26vyRHpqGbVAwJq_csUqZQ.gif)
+
 #
 
 ### Monte Carlo cross-validation
@@ -119,6 +132,9 @@
 - Iteration viel wiederholen (100, 300, 500 oder mehr)
 - Durchschnitt aller Testfehler zur Modellvalidierung nehmen
 
+
+
+![This is an image](https://miro.medium.com/max/1100/1*CkRyawn016AI-DRZJdb3Dw.png)
 #
 
 
@@ -137,6 +153,7 @@
 **Beispiel:** 5 Beobachtungen, 4-k-CV
 -> Ergebnis: 4 Paar Trainings-/Testsätze
 
+![This is an image](https://miro.medium.com/max/828/1*qvdnPF8ETV9mFdMT0Y_BBA.png)
 #
 
 ### Quellen
