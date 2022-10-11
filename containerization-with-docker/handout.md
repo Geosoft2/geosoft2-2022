@@ -51,7 +51,7 @@ Docker - why and when?
 - Um ein Image zu erstellen, wird ein Dockerfile mit einfacher Syntax über Anweisungen zum Erstellen und zur Ausführung des Images angefertigt
 - Container ist die ausführbare Instanz eines Images
 
-Informationsfluss im Format: Dockerfile -> Dockerfile -> Docker-Image -> Docker-Container
+Informationsfluss im Format: Dockerfile -> Docker-Image -> Docker-Container
 
 ### Dockerhub
 
