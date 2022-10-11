@@ -10,6 +10,10 @@
 ## Usage
 
 ## Resolution
+* Räumliche Auflösung: Pixelgröße
+* Zeitliche Auflösung: Zeitspanne zwischen Bildern der selben Region
+* Spektrale Auflösung: Abgedeckter Wellenbereich
+* Radiometrische Auflösung: Bitanzahl
 
 ## Data Types
 
