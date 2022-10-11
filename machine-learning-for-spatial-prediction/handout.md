@@ -33,4 +33,6 @@
   - dabei werden Daten aus der Luft durch Einsatz von Kameras oder Sensoren erfasst
 ## 2. Principles
 ## 3. Meistgenutzte Methoden
+### 3.1 Kriging
+  -
 ## 4. 
