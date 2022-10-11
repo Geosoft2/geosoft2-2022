@@ -2,10 +2,35 @@
 [@Lorano98](http://github.com/Lorano98/), [@Laxeros07](https://github.com/Laxeros07)
 
 ## Übersicht
+Fernerkundung ist die berührungsfreie Datenerfassung, Datenvisualisierung und Analyse
+
+* Rauminformationsgewinn mit Hilfe von Luftbildern
+* Ziele: Navigation, Raumanalyse, Planung, sammeln wissenschaftlicher Observationen etc.
+* Bereiche: Kartographie, Land-, Forstwirtschaft, wissenschaftliche Datenerhebung
 
 ## Collection
+* Erhebung durch:
+  * Satelliten
+  * Flugzeuge
+  * Drohnen
+  * Bodensensoren
 
 ## Procession
+* Methoden der Klassifikation:
+  * Unüberwacht
+  * Überwacht
+  * Objektbasiert
+* Durch die Kombination von verschiedenen Datenquellen werden mit Hilfe von automatisierten Prozessen unterschiedliche Landnutzungen einer Klasse zugeordnet
+
+### Objektklassen
+* sind klar definierte Gruppen von bestimmten Geoobjekten
+* haben verschiedene Reflektionseigenschaften
+ 
+### Unüberwachte Klassifikation vs. Überwachte Klassifikation
+* Bei überwachter Klassifikation gibt es Trainingsdaten
+* Dadurch kann man vorher festlegen, welche Klassen es geben soll <br>
+&rarr; Überwachte ist besser
+
 
 ## Usage
 
