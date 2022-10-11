@@ -1,0 +1,7 @@
+
+@jova10	@starke01
+
+## Monolith Architektur
+
+- In der Vergangenheit gängige Art der Anwedung
+- Alle Komponente/Module in einem Block
