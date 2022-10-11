@@ -58,3 +58,5 @@ Fernerkundung ist die berührungsfreie Datenerfassung, Datenvisualisierung und A
 ### Bilder
 * https://www.spiegel.de/wissenschaft/weltall/satellitenbild-der-woche-mars-auf-erden-a-504477.html
 * https://www.faz.net/aktuell/wissen/satellitenbilder-zeigen-das-abschmelzen-der-gletscher-16458864.html
+* https://www.dlr.de/eoc/desktopdefault.aspx/tabid-11128/19488_read-46704/
+* https://www.deutschlandfunk.de/satellitenjournalismus-gps-recherche-medien-butscha-100.html
