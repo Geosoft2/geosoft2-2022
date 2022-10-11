@@ -54,3 +54,7 @@ Fernerkundung ist die berührungsfreie Datenerfassung, Datenvisualisierung und A
 ## Quellen
 * Folien der Vorlesung „Einführung in den Fernerkundungsmethoden in den Geowissenschaften“ SoSe 2022 von Torsten Prinz, Hanna Meyer und Jan Lehmann
 * https://www.usgs.gov/faqs/what-remote-sensing-and-what-it-used
+
+# Bilder
+* https://www.spiegel.de/wissenschaft/weltall/satellitenbild-der-woche-mars-auf-erden-a-504477.html
+* https://www.faz.net/aktuell/wissen/satellitenbilder-zeigen-das-abschmelzen-der-gletscher-16458864.html
