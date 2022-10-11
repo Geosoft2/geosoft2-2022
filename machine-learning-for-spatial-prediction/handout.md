@@ -11,11 +11,11 @@
   1. das überwachte Lernen(supervised learning)
     - es werden gelabelte Trainingsdatensätze benutzt
     - die Modelle sortieren ungelabelte Datensätze dann den Labeln hinzu 
-    - Beispielalgorithmen: Support Vector Machines, Stochastic Gradient Descent, Naive Bayes Classification, Random Forests und Neural Networks
+    - Beispielalgorithmen: Classification und Kriging Algorithmus
   2. das unüberwachte Lernen (unsupervised learning)
     - es gibt keine Trainingsdatensätze
     - das Ergebnis ist nicht vorhersehbar
-    - Beispielalgorithmen: K-Means Clustering, Hierarchical Clustering, Affinity Propagation und Principal Component Analysis
+    - Beispielalgorithmen: Cluster Algorithmen
   3. das halb-überwachte Lernen (semi-supervised learning)
     - Mischung aus den ersten beiden Typen 
     - wenn Teile des Datensatzes gelabelt sind und die restlichen hinzugefügt werden sollen 
@@ -25,7 +25,8 @@
     - Beispielalgorithmen: Markov Decision Process
   - das überwachte und unüberwachte Lernen wird am meisten eingesetzt
 ### 1.2 räumliche Vorhersagen 
-  - 
+  - Datensätze mit räumlichen Attribute werden benötigt
+  - durch zum Beispiel Kriging, decision tree classification oder Cluster können räumliche Vorhersagen aus Datensätzen getroffen werden
 ### 1.3 Remote Sensing Data
   - sind Daten, die im Bereich der Fernerkundung entstehen
   - Prozess der Erkennung und Überwachung der physikalischen Eigenschaften eines Gebietes
