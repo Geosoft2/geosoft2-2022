@@ -37,7 +37,7 @@ Docker - why and when?
 - Im Vergleich zu Hardware oder virtuellen Umgebungen ressourcensparend
 - Einfacherere Einteilung der Benutzung - nur die Container die wirklich gebraucht werden
 - Laufen mehrere Container gleichzeitig, passiert dies unabhängig voneinander, also ohne Komplikationen untereinander
-- Deutlich einfacherer Portierung der gewünschten Software möglich
+- Deutlich einfachere Portierung der gewünschten Software möglich
 
 ### Docker Container & Images
 
