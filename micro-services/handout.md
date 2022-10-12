@@ -27,7 +27,7 @@
 - Wartbarkeit
 	- Einzelne Module werden unabhängig voneinander gewartet
 - Deployments
-	- 
+	- Jedes Modul kann bei Github einzeln hochgeladen werden und auf Bugs und Fehler überprüft werden in der Liveumgebung
 - Sicherheit
 	- Jedes Modul hat seine eigene Datenbank. Falls diese gehackt werden sollte, sind die anderen Daten trotzdem sicher, da 
 	  jedes Modul und damit auch die zugehörige Datenbank unabhängig sind
