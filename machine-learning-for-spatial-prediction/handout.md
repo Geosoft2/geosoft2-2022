@@ -15,14 +15,18 @@ Das überwachte Lernen (supervised learning):
   - es werden gelabelte Trainingsdatensätze benutzt
   - die Modelle sortieren ungelabelte Datensätze dann den Labeln hinzu
   - Beispielalgorithmen: Classification und Kriging Algorithmus
+
 Das unüberwachte Lernen (unsupervised learning):
-    - es gibt keine Trainingsdatensätze
-    - das Ergebnis ist nicht vorhersehbar
-    - Beispielalgorithmen: Cluster Algorithmen
+  - es gibt keine Trainingsdatensätze
+  - das Ergebnis ist nicht vorhersehbar
+  - Beispielalgorithmen: Cluster Algorithmen
+
 Das bestärkende Lernen (reinforcement learning):
-    - der Algorithmus erlent eine Strategie, um in einem festgelegten Bereich einen bestimmten Zielzustand zu erreichen
-    - Beispielalgorithmen: Markov Decision Process
-  - das überwachte und unüberwachte Lernen wird am meißten eingesetzt
+  - der Algorithmus erlent eine Strategie, um in einem festgelegten Bereich einen bestimmten Zielzustand zu erreichen
+  - Beispielalgorithmen: Markov Decision Process
+
+- das überwachte und unüberwachte Lernen wird am meißten eingesetzt
+
 
 
 ---------------------------------------------------------------------------------------------
