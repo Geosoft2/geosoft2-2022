@@ -17,19 +17,20 @@
 ### Die 3 Typen von maschinellem Lernen
   - das überwachte und unüberwachte Lernen wird am meißten eingesetzt
 
-Das überwachte Lernen (supervised learning):
+Das **überwachte Lernen** (*supervised learning*):
   - es werden gelabelte Trainingsdatensätze benutzt
+  - also schon vorher klassifizierte Daten
   - die Modelle sortieren ungelabelte Datensätze dann den Labeln hinzu
-  - Beispielalgorithmen: Classification und Kriging Algorithmus
+  - Beispielalgorithmen: Interpolationsmethoden wie der Kriging Algorithmus
 
-Das unüberwachte Lernen (unsupervised learning):
+Das **unüberwachte Lernen** (*unsupervised learning*):
   - es gibt keine Trainingsdatensätze
   - der Computer versucht alleine Muster und Labels zu finden
   - das Ergebnis ist nicht vorhersehbar
-  - Unsupervised models erstellen keine Vorhersagen, sie Gruppieren ledglich und sind daher schlecht für spatial predictions geeignet
+  - Unsupervised models erstellen keine Vorhersagen, sie Gruppieren ledglich und sind daher schlecht für manche räumliche Vorhersagen geeignet
   - Beispielalgorithmen: Cluster Algorithmen
 
-Das bestärkende Lernen (reinforcement learning):
+Das **bestärkende Lernen** (*reinforcement learning*):
   - der Algorithmus erlent eine Strategie, um in einem festgelegten Bereich einen bestimmten Zielzustand zu erreichen
   - Beispielalgorithmen: Markov Decision Process
 
@@ -56,11 +57,13 @@ Das bestärkende Lernen (reinforcement learning):
 - beim konventionellen Kriging wird lediglich ein Semiovariogramm zur Vorhersage erstellt
 - bei EBK werden mehrere Semiovariogramme und die Bayes'schen Regeln verwendet
 
-### Regression 
-- d
+### Regressionsanalyse
+- sind dafür da um die Beziehung zwischen den Variablen zu errechnen
+- diese Beziehung wird dann später für die Vorhersage der unbekannten Daten verwendet
 
 ### Clustern 
-- d
+- Der Algorithmus sucht nach ähnlichen Strukturen in den Datenbeständen
+- daraus werden später Gruppen gebildet die als Cluster bezeichnet werden
 
 ## Quellen
 - https://www.analyticsvidhya.com/blog/2021/03/introducing-machine-learning-for-spatial-data-analysis/
