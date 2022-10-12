@@ -14,7 +14,7 @@
 Das überwachte Lernen (supervised learning):
   - es werden gelabelte Trainingsdatensätze benutzt
   - die Modelle sortieren ungelabelte Datensätze dann den Labeln hinzu
-  - Beispielalgorithmen: Classification und Kriging Algorithmus 
+  - Beispielalgorithmen: Classification und Kriging Algorithmus
 Das unüberwachte Lernen (unsupervised learning):
     - es gibt keine Trainingsdatensätze
     - das Ergebnis ist nicht vorhersehbar
