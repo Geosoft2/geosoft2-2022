@@ -40,8 +40,10 @@ Das bestärkende Lernen (reinforcement learning):
   - Die räumlichen Geodaten haben im Gegensatz zu tabellarischen Daten viele weitere Eigenschaften
     - Es gibt zwei Arten von Geodaten: Vektor- und Rasterdaten 
 
-Vektordaten können aus Punkt-, Linien- oder Polygonformen bestehen
-Rasterdaten bestehen aus Pixeln als Bild 
+- Vektordaten können aus Punkt-, Linien- oder Polygonformen bestehen
+- Rasterdaten bestehen aus Pixeln als Bild 
+
+
 
 
 
