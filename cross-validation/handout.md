@@ -75,7 +75,7 @@
 
 ### stratified k-fold cross-validation
 - Variante / Erweiterung der k-fold cross-validation
-- wird besonders bei Klassifizierungen verwendet, bei denen die Splitzs nicht völlig zufällig sind
+- wird besonders bei Klassifizierungen verwendet, bei denen die Splits nicht völlig zufällig sind
 - die Verteilung von bekannt zu unbekannt ist in den Testklassen wie bei dem gesamten Datensatz gleich
 
 
