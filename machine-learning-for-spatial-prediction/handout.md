@@ -12,8 +12,7 @@
   - Maschinen sind auf Dauer viel präziser
   - Maschinen werden nicht müde 
   - Maschinen sind vorallem bei größeren Daten schneller --> Big-Data Managment
-  - Maschinen können permanent weiter lernen
-  - 
+  - Maschinen können permanent weiter lernen 
 
 ### Die 3 Typen von maschinellem Lernen
   - das überwachte und unüberwachte Lernen wird am meißten eingesetzt
@@ -25,6 +24,7 @@ Das überwachte Lernen (supervised learning):
 
 Das unüberwachte Lernen (unsupervised learning):
   - es gibt keine Trainingsdatensätze
+  - der Computer versucht alleine Muster und Labels zu finden
   - das Ergebnis ist nicht vorhersehbar
   - Beispielalgorithmen: Cluster Algorithmen
 
