@@ -20,7 +20,8 @@
 - Übernahme einer spezifischen Aufgabe
 - Entwicklung, Skalierung und Bereitstellung geschieht Individuell 
 
-
+Quellen: (https://www.microtool.de/wissen/microservices-der-aktuelle-architektur-ansatz/#Was-ist-und-kann-ein-Microservice)
+	(https://www.redhat.com/de/topics/microservices/what-are-microservices)
 
 ## Vorteile Microservices
 
@@ -40,6 +41,7 @@
 	- kürzere Entwicklungszeit
 	- Skalierbarkeit kann schnell bei Bedarf angepasst werden
 
+Quelle: (https://www.youtube.com/watch?v=rv4LlmLmVWk&t=358s)
 
 ## Herausforderungen Microservices 
 
