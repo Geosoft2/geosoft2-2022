@@ -33,7 +33,15 @@ Das bestärkende Lernen (reinforcement learning):
   - der Algorithmus erlent eine Strategie, um in einem festgelegten Bereich einen bestimmten Zielzustand zu erreichen
   - Beispielalgorithmen: Markov Decision Process
 
+## Spatial Data Analysis
+  - Machine Learning ist für räumliche  Daten besonders geeignet 
+  - deshalb wird es schon seit über drei Jahrzenten in der Fernerkundung verwendet
+  - Satellitenbilder zum Beispiel sind viel zu groß für den Menschen um Muster zu erkennen 
+  - Die räumlichen Geodaten haben im Gegensatz zu tabellarischen Daten viele weitere Eigenschaften
+    - Es gibt zwei Arten von Geodaten: Vektor- und Rasterdaten 
 
+Vektordaten können aus Punkt-, Linien- oder Polygonformen bestehen
+Rasterdaten bestehen aus Pixeln als Bild 
 
 
 
@@ -59,8 +67,3 @@ Das bestärkende Lernen (reinforcement learning):
   - sind Daten, die im Bereich der Fernerkundung entstehen
   - Prozess der Erkennung und Überwachung der physikalischen Eigenschaften eines Gebietes
   - dabei werden Daten aus der Luft durch Einsatz von Kameras oder Sensoren erfasst
-## 2. Principles
-## 3. Meistgenutzte Methoden
-### 3.1 Kriging
-  -
-## 4. 
