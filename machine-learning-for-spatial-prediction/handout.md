@@ -26,6 +26,7 @@ Das unüberwachte Lernen (unsupervised learning):
   - es gibt keine Trainingsdatensätze
   - der Computer versucht alleine Muster und Labels zu finden
   - das Ergebnis ist nicht vorhersehbar
+  - Unsupervised models erstellen keine Vorhersagen, sie Gruppieren ledglich und sind daher schlecht für spatial predictions geeignet
   - Beispielalgorithmen: Cluster Algorithmen
 
 Das bestärkende Lernen (reinforcement learning):
