@@ -1,13 +1,33 @@
 @pmunding @tkrumrei
 
 # Machine learning for spatial prediction
+## 1. Was ist Machine Learning
+  - ist eine Unterkategorie der künstlichen Intelligenz
+  - beschreibt den Erwerb von Wissen durch ein künstliches System
+  - verwendet von Entwicklern vorher bereitgestellte Algorithmen und Technologien zur Mustererkennung
+  - Basierend auf diesen Mustern kann der Computer z.B. Prognosen erstellen
+  - durch weitere Datensätze lernt der Computer immer mehr dazu und verbessert seine Prognossen und Ergebnisse
+
+  - Warum lässt man Maschinen lernen? Ganz einfach, Maschinen sind auf Dauer viel Präziser, werden nicht müde, können permanent weiter lernen
+
+### Die 3 Typen von maschinellem Lernen
+  1. Das überwachte Lernen (supervised learning):
+    - es werden gelabelte Trainingsdatensätze benutzt
+    - die Modelle sortieren ungelabelte Datensätze dann den Labeln hinzu 
+    - Beispielalgorithmen: Classification und Kriging Algorithmus
+  2. das unüberwachte Lernen (unsupervised learning):
+    - es gibt keine Trainingsdatensätze
+    - das Ergebnis ist nicht vorhersehbar
+    - Beispielalgorithmen: Cluster Algorithmen
+  3. das bestärkende Lernen (reinforcement learning):
+    - der Algorithmus erlent eine Strategie, um in einem festgelegten Bereich einen bestimmten Zielzustand zu erreichen
+    - Beispielalgorithmen: Markov Decision Process
+  - das überwachte und unüberwachte Lernen wird am meißten eingesetzt
+
+
+---------------------------------------------------------------------------------------------
 ## 1. Einführung 
-  - Mithilfe des maschinellen Lernens werden heutzutage schon viele räumliche Vorhersagen getroffen 
 ### 1.1 Maschinelles Lernen
-  - der Computer wird durch bereits gegebene Daten trainiert, um seine Erkentnisse später dann auf weitere Daten anzuwenden
-  - durch jeden neuen Datensatz werden dabei die Ergebnisse immer weiter verbessert
-  - der Mensch trifft dabei nur noch die Entscheidung welche Datensätze und Algorithmen angewendet werden sollen
-  - es gibt vier verschiedene Typen des maschinellen Lernens:
   1. das überwachte Lernen(supervised learning)
     - es werden gelabelte Trainingsdatensätze benutzt
     - die Modelle sortieren ungelabelte Datensätze dann den Labeln hinzu 
@@ -16,10 +36,6 @@
     - es gibt keine Trainingsdatensätze
     - das Ergebnis ist nicht vorhersehbar
     - Beispielalgorithmen: Cluster Algorithmen
-  3. das halb-überwachte Lernen (semi-supervised learning)
-    - Mischung aus den ersten beiden Typen 
-    - wenn Teile des Datensatzes gelabelt sind und die restlichen hinzugefügt werden sollen 
-    - Beispielalgorithmen: Label Propagation
   4. das bestärkende Lernen (reinforcement learning)
     - der Algorithmus erlent eine Strategie, um in einem festgelegten Bereich einen bestimmten Zielzustand zu erreichen
     - Beispielalgorithmen: Markov Decision Process
