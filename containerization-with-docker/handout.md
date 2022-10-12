@@ -66,7 +66,7 @@ Informationsfluss im Format: Dockerfile -> Docker-Image -> Docker-Container
 Docker - How?
 -------------
 
-### Umsetzung der Containersierung mit Docker
+### Umsetzung der Containerisierung mit Docker
 
 - Voraussetzung ist fertig installiertes Docker Desktop 
 - Dockerfile + Docker build + Docker Run
