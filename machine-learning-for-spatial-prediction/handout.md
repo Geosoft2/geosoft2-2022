@@ -8,7 +8,12 @@
   - Basierend auf diesen Mustern kann der Computer z.B. Prognosen erstellen
   - durch weitere Datensätze lernt der Computer immer mehr dazu und verbessert seine Prognossen und Ergebnisse
 
-  - Warum lässt man Maschinen lernen? Ganz einfach, Maschinen sind auf Dauer viel Präziser, werden nicht müde, können permanent weiter lernen
+### Warum lässt man Maschinen lernen? Ganz einfach
+  - Maschinen sind auf Dauer viel präziser
+  - Maschinen werden nicht müde 
+  - Maschinen sind vorallem bei größeren Daten schneller --> Big-Data Managment
+  - Maschinen können permanent weiter lernen
+  - 
 
 ### Die 3 Typen von maschinellem Lernen
   - das überwachte und unüberwachte Lernen wird am meißten eingesetzt
