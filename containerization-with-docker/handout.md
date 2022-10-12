@@ -36,7 +36,7 @@ Docker - why and when?
 - Unabhängig von Entwicklungs- und Laufzeitumgebung verhält sich containerisierte Software immer gleich
 - Im Vergleich zu Hardware oder virtuellen Umgebungen ressourcensparend
 - Einfacherere Einteilung der Benutzung - nur die Container die wirklich gebraucht werden
-- Laufen mehrere Container gleicheitig, passiert dies unabhängig voneinander, also ohne Komplikationen untereinander
+- Laufen mehrere Container gleichzeitig, passiert dies unabhängig voneinander, also ohne Komplikationen untereinander
 - Deutlich einfacherer Portierung der gewünschten Software möglich
 
 ### Docker Container & Images
